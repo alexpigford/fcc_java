@@ -1,0 +1,13 @@
+package org.freecodecamp;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		sayGreeting("Alex");
+	}
+
+	private static void sayGreeting(String name) {
+		System.out.println("Hello " + name);
+	}
+
+}
